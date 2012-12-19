@@ -6,7 +6,9 @@ A sort-of download proxy.
 Tell me more
 ------------
 
-Downloading torrent files directly to local machine is slow when you have slow internet connection, Igor will fetch your torrent files from your remote host and prepare them ready for your to download.
+Downloading torrent files directly to local machine is slow when you have slow internet connection, Igor will fetch your torrent files from your remote host and prepare them ready for you to download.
+
+This works because most connection in remote hosts are faster than where I am right now and downloading files from my host to my machine uses HTTP with the file already formed unlike in a torrent where the file still needs to be asembled from different resources.
 
 Requirements
 ------------
