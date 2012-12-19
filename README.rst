@@ -15,6 +15,21 @@ Requirements
 
 Aside from those under setup.py, Igor also needs `libtorrent <http://www.rasterbar.com/products/libtorrent/>`_ with `python bindings <http://www.rasterbar.com/products/libtorrent/python_binding.html>`_ enabled.
 
+Usage
+-----
+
+To start the server:
+
+.. code:: python
+
+    igor server start
+
+Suppose I have a host under my SSH config named webfaction, I can use it like so:
+
+.. code:: python
+
+    igor fetch webfaction "magnet:?xt=urn:btih:c4 ..."
+
 TODO
 ----
 
